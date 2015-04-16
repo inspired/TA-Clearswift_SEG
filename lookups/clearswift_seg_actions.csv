@@ -1,0 +1,12 @@
+vendor_action,action
+NOTDELIVERED,unknown
+ONBOX,unknown
+DELIVERED,delivered
+DEFERRED,unknown
+PMM,quarantined
+NONDELIVERED,unknown
+DELETED,deleted
+NAVIGATE,read
+LOGIN,success
+LOGOUT,unknown
+EXPIRED,unknown
