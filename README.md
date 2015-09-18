@@ -30,7 +30,7 @@
 | Author | Mikael Bjerkeland |
 | --- | --- |
 | App Version | 1.0 |
-| Vendor Products | Clearswift SECURE Email Gateway |
+| Vendor Products | Clearswift SECURE Email Gateway 3.8 or higher |
 | Has index-time operations | True |
 | Create an index | False |
 | Implements summarization | False |
