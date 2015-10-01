@@ -89,7 +89,7 @@ Version 1.0 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise 
 
 **For users who are not customers of Datametrix, best effort support is available via Splunk Answers**
 
-* Access questions and answers specific to the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise at TBD
+* Access questions and answers specific to the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise at http://answers.splunk.com/answers/app/2916
 
 ## INSTALLATION AND CONFIGURATION
 
@@ -125,7 +125,7 @@ Because this add-on runs on Splunk Enterprise, all of the [Splunk Enterprise sys
 
 #### Download
 
-Download the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise at TBD.
+Download the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise at https://splunkbase.splunk.com/app/2916/
 
 #### Installation steps
 
