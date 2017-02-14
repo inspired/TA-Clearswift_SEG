@@ -29,7 +29,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 1.0 |
+| App Version | 1.1 |
 | Vendor Products | Clearswift SECURE Email Gateway 3.8 or higher |
 | Has index-time operations | True |
 | Create an index | False |
@@ -45,7 +45,7 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 1.0 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise is compatible with:
+Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise is compatible with:
 
 | Splunk Enterprise versions | 6.x |
 | --- | --- |
@@ -58,24 +58,23 @@ Version 1.0 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise 
 
 Clearswift SECURE Email Gateway Add-on for Splunk Enterprise includes the following new features:
 
-- Initial release
-- CIM compliance
+- Renamed message_id as internal_message_id.
 
 ##### Fixed issues
 
-Version 1.0 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise fixes the following issues:
+Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise fixes the following issues:
 
 - None
 
 ##### Known issues
 
-Version 1.0 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise has the following known issues:
+Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 1.0 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise incorporates the following third-party software or libraries.
+Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise incorporates the following third-party software or libraries.
 
 - None
 
