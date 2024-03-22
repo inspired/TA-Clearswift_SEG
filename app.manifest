@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "2.0.0",
+  "info": {
+    "title": "Clearswift SECURE Email Gateway Add-on for Splunk",
+    "id": {
+      "group": null,
+      "name": "TA-Clearswift_SEG",
+      "version": "1.2.0"
+    },
+    "author": [
+      {
+        "name": "Mikael Bjerkeland",
+        "email": "mikael@bjerkeland.com",
+        "company": ""
+      }
+    ],
+    "releaseDate": null,
+    "description": "The Clearswift SECURE Email Gateway Add-on for Splunk allows a Splunk administrator to extract and filter event information from Clearswift SECURE Email Gateway appliances. The app sets the correct sourcetype and adds fields required for CIM compliance.",
+    "classification": {
+      "intendedAudience": "IT Professionals",
+      "categories": [
+        "IT Operations",
+        "Security, Fraud & Compliance"
+      ],
+      "developmentStatus": "Production/Stable"
+    },
+    "commonInformationModels": {
+      "Authentication":"4.19.0",
+      "Email":"4.19.0"
+    },
+    "license": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseNotes": {
+      "name": null,
+      "text": "./README.md",
+      "uri": null
+    }
+  },
+  "dependencies": {},
+  "tasks": [
+    "autofocus_export",
+    "aperture",
+    "minemeld_feed",
+    "iot_security"
+  ],
+  "inputGroups": {},
+  "incompatibleApps": {},
+  "platformRequirements": {
+    "splunk": {
+      "Enterprise": "*"
+    }
+  },
+  "supportedDeployments": [
+    "_standalone",
+    "_distributed",
+    "_search_head_clustering"
+  ],
+  "targetWorkloads": [
+    "_search_heads",
+    "_indexers",
+    "_forwarders"
+  ]
+}

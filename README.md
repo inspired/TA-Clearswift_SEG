@@ -1,9 +1,9 @@
-# Clearswift SECURE Email Gateway Add-on for Splunk Enterprise
+# Clearswift SECURE Email Gateway Add-on for Splunk
 ## Table of Contents
 
 ### OVERVIEW
 
-- About the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise
+- About the Clearswift SECURE Email Gateway Add-on for Splunk
 - Release notes
 - Support and resources
 
@@ -13,10 +13,9 @@
 - Installation steps
 - Deploy to single server instance
 - Deploy to distributed deployment
-- Deploy to distributed deployment with Search Head Pooling
 - Deploy to distributed deployment with Search Head Clustering
 - Deploy to Splunk Cloud 
-- Configure Clearswift SECURE Email Gateway Add-on for Splunk Enterprise
+- Configure Clearswift SECURE Email Gateway Add-on for Splunk
 
 ### USER GUIDE
 
@@ -25,17 +24,17 @@
 
 ### OVERVIEW
 
-#### About the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise
+#### About the Clearswift SECURE Email Gateway Add-on for Splunk
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 1.1 |
+| App Version | 1.2.0 |
 | Vendor Products | Clearswift SECURE Email Gateway 3.8 or higher |
 | Has index-time operations | True |
 | Create an index | False |
 | Implements summarization | False |
 
-The Clearswift SECURE Email Gateway Add-on for Splunk Enterprise allows a Splunk® Enterprise administrator to extract and filter event information from Clearswift SECURE Email Gateway appliances. The app sets the correct sourcetype and adds fields required for CIM compliance.
+The Clearswift SECURE Email Gateway Add-on for Splunk allows a Splunk administrator to extract and filter event information from Clearswift SECURE Email Gateway appliances. The app sets the correct sourcetype and adds fields required for CIM compliance.
 
 ##### Scripts and binaries
 
@@ -45,36 +44,36 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise is compatible with:
+Version 1.2.0 of the Clearswift SECURE Email Gateway Add-on for Splunk is compatible with:
 
-| Splunk Enterprise versions | 6.x |
+| Splunk versions | 9.x |
 | --- | --- |
-| CIM | 4.2, 4.1, 4.0 |
+| CIM | 5.3, 5.2, 5.1, 4.19 |
 | Platforms | Platform independent |
 | Vendor Products | Clearswift SECURE Email Gateway |
 | Lookup file changes |  |
 
 ##### New features
 
-Clearswift SECURE Email Gateway Add-on for Splunk Enterprise includes the following new features:
+Clearswift SECURE Email Gateway Add-on for Splunk includes the following new features:
 
 - Renamed message_id as internal_message_id.
 
 ##### Fixed issues
 
-Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise fixes the following issues:
+Version 1.2.0 of the Clearswift SECURE Email Gateway Add-on for Splunk fixes the following issues:
 
 - None
 
 ##### Known issues
 
-Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise has the following known issues:
+Version 1.2.0 of the Clearswift SECURE Email Gateway Add-on for Splunk has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise incorporates the following third-party software or libraries.
+Version 1.2.0 of the Clearswift SECURE Email Gateway Add-on for Splunk incorporates the following third-party software or libraries.
 
 - None
 
@@ -82,7 +81,7 @@ Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise 
 
 **This app is community supported on a best effort basis. In case you have needs for professional support billed by the hour, please contact the author.
 
-* Access questions and answers specific to the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise at http://answers.splunk.com/answers/app/2916
+* Access questions and answers specific to the Clearswift SECURE Email Gateway Add-on for Splunk at https://community.splunk.com/t5/c-oqeym24965/Clearswift+SECURE+Email+Gateway+Add-on+for+Splunk+Enterprise/pd-p/2916
 
 ## INSTALLATION AND CONFIGURATION
 
@@ -90,7 +89,7 @@ Version 1.1 of the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise 
 
 #### Hardware requirements
 
-Clearswift SECURE Email Gateway Add-on for Splunk Enterprise supports the following server platforms in the versions supported by Splunk Enterprise:
+Clearswift SECURE Email Gateway Add-on for Splunk supports the following server platforms in the versions supported by Splunk :
 
 - Windows 7, 8, and 8.1 (64-bit)
 - Windows Server 2008, 2008 R2, 2012 and 2012 R2 (64-bit)
@@ -108,17 +107,17 @@ Clearswift SECURE Email Gateway Add-on for Splunk Enterprise supports the follow
 
 #### Software requirements
 
-To function properly, Clearswift SECURE Email Gateway Add-on for Splunk Enterprise requires the following software:
+To function properly, Clearswift SECURE Email Gateway Add-on for Splunk requires the following software:
 
 - Optional: Splunk App for Enterprise Security
 
-#### Splunk Enterprise system requirements
+#### Splunk system requirements
 
-Because this add-on runs on Splunk Enterprise, all of the [Splunk Enterprise system requirements](http://docs.splunk.com/Documentation/Splunk/latest/Installation/Systemrequirements) apply.
+Because this add-on runs on Splunk, all of the [Splunk Enterprise system requirements](http://docs.splunk.com/Documentation/Splunk/latest/Installation/Systemrequirements) apply.
 
 #### Download
 
-Download the Clearswift SECURE Email Gateway Add-on for Splunk Enterprise at https://splunkbase.splunk.com/app/2916/
+Download the Clearswift SECURE Email Gateway Add-on for Splunk at https://splunkbase.splunk.com/app/2916/
 
 #### Installation steps
 
@@ -154,13 +153,11 @@ Follow these steps to install the app in a single server instance of Splunk Ente
 
 This app should not be installed on forwarders.
 
-##### Deploy to distributed deployment with Search Head Pooling
-Follow the same steps as *Install to search head*.
 ##### Deploy to distributed deployment with Search Head Clustering
 Follow the same steps as *Install to search head*.
 ##### Deploy to Splunk Cloud
-Unknown
-#### Configure Clearswift SECURE Email Gateway Add-on for Splunk Enterprise
+Follow the same steps as *Install to search head*.
+#### Configure Clearswift SECURE Email Gateway Add-on for Splunk 
 
 1. Install in $SPLUNK_HOME/etc/apps/TA-Clearswift_SEG
 
@@ -182,12 +179,12 @@ These data types support the following Common Information Model data models:
 
 | Source Type | CIM Data Models |
 | --- | --- |
-| clearswift:seg | Change Analysis<br/>Email<br/>|
+| clearswift:seg | Authentication<br/>Email<br/>|
 
 
 ### Lookups
 
-The Clearswift SECURE Email Gateway Add-on for Splunk Enterprise contains 1 lookup file.
+The Clearswift SECURE Email Gateway Add-on for Splunk contains 1 lookup file.
 
 **clearswift_seg_actions.csv**
 
